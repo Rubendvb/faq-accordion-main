@@ -11,11 +11,11 @@ acc.forEach((btn, index) => {
     if (panels[index].style.maxHeight) {
       panels[index].style.maxHeight = null
       panels[index].style.marginTop = '0'
-      imgs[index].setAttribute('src', '../assets/images/icon-plus.svg')
+      imgs[index].setAttribute('src', '/images/icon-plus.svg')
     } else {
       panels[index].style.maxHeight = panels[index].scrollHeight + 'px'
       panels[index].style.marginTop = '28px'
-      imgs[index].setAttribute('src', '../assets/images/icon-minus.svg')
+      imgs[index].setAttribute('src', '/images/icon-minus.svg')
     }
   })
 })
