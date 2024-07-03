@@ -124,7 +124,8 @@ main {
   bottom: -50px;
   left: 0;
   right: 0;
+  color: var(--Dark-purple);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Grayish-purple);
 }
